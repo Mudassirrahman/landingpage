@@ -1,0 +1,76 @@
+@media (min-width: 800px) {
+  .containerFooter2 {
+    margin: 0 10.1875rem;
+  }
+}
+@media (max-width: 800px) {
+  .containerFooter2 {
+    margin: auto 20px auto 20px;
+  }
+}
+.footerbg {
+  background-color: #dfeadf;
+}
+
+.linkTextColor {
+    color: #082009 !important;
+    font-family: "Apercu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .linkTextColorLinkedin:hover {
+    color: #0072b1 !important;
+    font-family: "Apercu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .linkTextColorTwiter:hover {
+    color: #00acee !important;
+    font-family: "Apercu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .linkTextColorFacebook:hover {
+    color: #3b5998 !important;
+    font-family: "Apercu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .linkTextColorYoutube:hover {
+    color: #b2071d !important;
+    font-family: "Apercu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  
+  .custmBorder1 {
+    border-bottom: 2px solid #0072b1 !important;
+  }
+  
+  .custmBorder2 {
+    border-bottom: 2px solid #00acee !important;
+  }
+  
+  .custmBorder3 {
+    border-bottom: 2px solid #3b5998 !important;
+  }
+  
+  .custmBorder4 {
+    border-bottom: 2px solid #b2071d !important;
+  }
+
+  .iconsSizeAndColor{
+    width: 20px;
+    height: 13.75px;
+    color: #082009;
+  }

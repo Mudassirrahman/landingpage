@@ -1,25 +1,12 @@
-.containerr{
-  margin: 0 10.1875rem;
+
+
+.marginTop {
+  margin-top: 22.4375rem;
 }
 
-@media  (max-width: 575px ){
-  .containerr{
-    margin: 0 1.25rem;
-  }
-}
 
-.row{
-  display: flex;
-  gap: 4rem;
-}
 
-.marginTop{
-margin-top: 22.4375rem;
-}
-.marginTopFoo{
-  margin-top: 18rem;
-  margin-bottom: 80px;
-  }
+
 
 .col8{
   width: 48.5rem;
@@ -31,57 +18,20 @@ display: flex;
 flex-direction: column-reverse;
 } */
 
-.heading{
-  font-family: 'Apercu';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 140%;
+
+
+
+
+
+.btnbg1{
+  background-color: #52B04E;
 }
-.heading1{
-  /* width: 592px;
-height: 67px; */
-
-/* Web/Title */
-
-font-family: 'Apercu';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 140%;
-/* or 67px */
-
-letter-spacing: -0.02em;
-
-/* Neutral/Dark Grey */
-
-color: #082009;;
-}
-
-.heroPera{
-/* width: 776px;
-height: 136px; */
-
-font-family: 'Apercu';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 140%;
-/* or 34px */
-
-
-/* Neutral/Grey Medium */
-
-color: #6D7E6D;
-}
-
 /* @media (min-width:768px){
-
 .heroPera{
 width: 776px;
 height: 136px;
-}
-  } */
+} */
+  
 
 @media (max-width: 575px){
   .heading{
@@ -107,6 +57,7 @@ height: 136px;
 .margin{
   margin-top: 6rem;
 }
+
 @media (max-width:768px){
   .custmPera{
     display: none;
@@ -130,6 +81,8 @@ height: 136px;
   animation-delay: 1s;
 }
 }
+
+
 
 @keyframes rev_block {
 
@@ -158,4 +111,38 @@ height: 136px;
   }
 
 }
+
+/* .container {
+  background: lightblue;
+  cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 39 39,
+    auto;
+} */
+.deck {
+  position: absolute;
+  /* width: 100vw;
+  height: 100vh; */
+  will-change: transform;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  touch-action: none;
+  
+}
+
+.deck > div {
+  overflow: hidden !important;
+  display: flex !important;
+  background-color: rgb(155, 56, 56);
+  /* background-size: auto 85%; */
+  /* background-repeat: no-repeat;
+  background-position: center center; */
+  width: 20rem;
+  max-width: 300px;
+  height: 20rem;
+  /* max-height: 570px; */
+  will-change: transform;
+  border-radius: 10px;
+  /* box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3); */
+}
+
 
