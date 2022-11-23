@@ -210,17 +210,17 @@ h5:last-of-type {
 }
 
 
-#app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .swiper {
   width: 24.5rem;
   height: 21.9375rem;
-
 }
+ @media (max-width:786px){
+  .swiper{
+    width: 18rem;
+    height: 16.125rem;
+  }
+ }
 .swiper-3d{
   perspective: 880px !important;
   transform-style: preserve-3d !important;
