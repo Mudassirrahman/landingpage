@@ -219,6 +219,7 @@ h5:last-of-type {
   .swiper{
     width: 18rem;
     height: 16.125rem;
+    margin: 0 1.25rem;
   }
  }
 .swiper-3d{
