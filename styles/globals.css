@@ -112,11 +112,12 @@
   transform-origin: top left;
   transform: scale(0, 0);
   opacity: 0;
+  border-radius:0 4px 4px 0;
 }
 
 #progressBarContainer,
 #progressBar {
-  height: 10px;
+  height: 8px;
 }
 
 
@@ -204,9 +205,5 @@ h5:last-of-type {
 
 .msgHeight{
   height: 158px !;
-  border-radius: 0% !important;
-}
-
-.modal , .fade{
   border-radius: 0% !important;
 }

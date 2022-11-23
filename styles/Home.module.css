@@ -1,8 +1,6 @@
 
 
-.marginTop {
-  margin-top: 22.4375rem;
-}
+
 
 
 
@@ -58,59 +56,7 @@ height: 136px;
   margin-top: 6rem;
 }
 
-@media (max-width:768px){
-  .custmPera{
-    display: none;
-  }
-}
 
-@media (min-width:768px){
-
-  .rev_block {
-    position: absolute;
-  }
-.rev_block:after {
-  content: '';
-  top: 10%;
-  left: 0;
-  position: absolute;
-  width: 0%;
-  height: 100%;
-  background: #082009;
-  animation: rev_block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-  animation-delay: 1s;
-}
-}
-
-
-
-@keyframes rev_block {
-
-  0% {
-       left: 0;
-       width: 100%;
-  }
-  50% {
-       left: 0;
-       width: 100%;
-  }
-  100% {
-       left: 100%;
-       width: 0%;
-  }
-
-}
-
-@keyframes appear-text {
-
-  0% {
-       opacity: 0;
-  }
-  100% {
-       opacity: 1;
-  }
-
-}
 
 /* .container {
   background: lightblue;
