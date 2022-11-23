@@ -3,6 +3,12 @@
   margin-bottom: 72px;
 }
 
+@media (max-width:768px){
+  .marginTop{
+    margin-top: 7.1875rem !important;
+  }
+}
+
 .portFolio1Degit {
   /* width: 33px;
   height: 45px; */

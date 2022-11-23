@@ -1,6 +1,11 @@
 .marginTopFoo {
   margin-top: 18rem;
 }
+@media (max-width:768px){
+  .marginTopFoo{
+    margin-top: 3.5rem !important;
+  }
+}
 
 .footerHeading {
   /* margin: 72px auto;
