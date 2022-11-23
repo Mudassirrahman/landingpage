@@ -43,8 +43,6 @@ height: 34px; */
 }
 
 .portFolio1Pera {
-  /* width: 600px; */
-  height: 102px;
   font-family: "Apercu";
   font-style: normal;
   font-weight: 400;
@@ -54,6 +52,17 @@ height: 34px; */
   margin-top: 1rem;
 }
 
+@media (max-width:768px){
+  .portFolio1Pera{
+    display: none;
+  }
+  .portFolio1Link{
+    margin-top: 0% !important;
+  }
+  .linkCricle{
+    margin-top: 0% !important;
+  }
+}
 .portFolio1Link {
   font-family: "Apercu";
   font-style: normal;
@@ -99,6 +108,7 @@ top: 917px;
 
   .rev_blockPera{
     position: absolute;
+    width: 600px;
     top: 1042px;
   }
 
@@ -119,7 +129,6 @@ top: 917px;
   top: 10%;
   left: 0;
   position: absolute;
-  width: 0%;
   height: 100%;
   background: #6D7E6D;
   animation: rev_block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
