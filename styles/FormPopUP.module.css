@@ -1,0 +1,84 @@
+@media (min-width: 768px) {
+    .modal {
+      width: 424px !important;
+      left: 770px !important;
+      top: 64px !important;
+    }
+  }
+
+
+/* @media (min-width: 1205px) {
+  .modal {
+    width: 424px !important;
+    left: 48.6875rem !important;
+    top: 64px !important;
+  }
+}
+@media (max-width: 1204px) {
+    .modal {
+      width: 424px !important;
+      left: 40.6875rem !important;
+      top: 64px !important;
+    }
+  }
+  @media (max-width: 1080px) {
+    .modal {
+      width: 424px !important;
+      left: 30.6875rem !important;
+      top: 64px !important;
+    }
+  }
+  @media (max-width: 921px) {
+    .modal {
+      width: 424px !important;
+      left: 20.6875rem !important;
+      top: 64px !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .modal {
+      width: 424px !important;
+      left: 10rem  !important;
+      top: 64px !important;
+    }
+  } */
+.formHeading {
+  /* width: 221px;
+  height: 45px; */
+  font-family: "Apercu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  color: #082009;
+}
+
+.inputHeight{
+    height: 48px !important;
+    border-radius: 0% !important;
+  }
+  
+  .msgHeight{
+    height: 158px !;
+    border-radius: 0% !important;
+  }
+
+.formBtnHeight {
+  height: 56px;
+}
+
+.btnbg1 {
+  background: #52b04e !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 0% !important;
+  align-items: center;
+  padding: 18px 32px;
+  gap: 8px;
+  font-family: "Apercu" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 135%;
+}

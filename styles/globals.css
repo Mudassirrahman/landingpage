@@ -197,7 +197,16 @@ h5:last-of-type {
 }
 
 
-/* .custmWidth{
-  width: 424px !important;
-margin: 0 auto;
-} */
+.inputHeight{
+  height: 48px !important;
+  border-radius: 0% !important;
+}
+
+.msgHeight{
+  height: 158px !;
+  border-radius: 0% !important;
+}
+
+.modal , .fade{
+  border-radius: 0% !important;
+}

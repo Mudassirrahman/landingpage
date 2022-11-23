@@ -29,9 +29,9 @@
   background-color: #dfeadf;
 }
 
-.btnbg1 {
+/* .btnbg1 {
   background-color: #52b04e;
-}
+} */
 .btnbg1 {
   background: #52b04e !important;
   border: none !important;
@@ -68,3 +68,7 @@
     height: 60px;
   }
 }
+
+
+
+
