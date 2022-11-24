@@ -3,6 +3,7 @@ import Head from "next/head";
 import HeroSec from "../components/heroSection/HeroSec";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PortFolio1 from "../components/portFolio1/PortFolio1"
+import PortFolio2 from "../components/portFolio2/PortFolio2"
 import Footer1 from "../components/footer/Footer1";
 import Footer2 from "../components/footer/Footer2";
 
@@ -48,11 +49,13 @@ export default function Home() {
               style={{ transform: `scale(${scroll}, 1)`, opacity: 1 }}
             />
           </div>
-        </div>
+        
         <HeroSec />
         <PortFolio1 />
+        {/* <PortFolio2 /> */}
         <Footer1 />
         <Footer2 />
+        </div>
       </div>
     </>
   );

@@ -209,7 +209,7 @@ h5:last-of-type {
   border-radius: 0% !important;
 }
 
-
+/* portfolio section 1 slides start*/
 
 .swiper {
   width: 24.5rem;
@@ -217,14 +217,19 @@ h5:last-of-type {
 }
  @media (max-width:786px){
   .swiper{
-    width: 18rem;
-    height: 16.125rem;
-    margin: 0 1.25rem;
+    width: 15.5rem;
+    height: 14.125rem;
+    margin-left:1.25rem !important;
+    margin-right: 1.25rem !important;
+  }
+  .mySwiper{
+    margin-left:1.25rem !important;
+    margin-right: 1.25rem !important;
   }
  }
 .swiper-3d{
   perspective: 880px !important;
-  transform-style: preserve-3d !important;
+  /* transform-style: preserve-3d !important; */
 }
 .swiper-slide {
   display: flex;
@@ -238,22 +243,22 @@ h5:last-of-type {
 
 .swiper-slide:nth-child(1n) {
   background-color: rgb(206, 17, 17);
-  transform: translate3d(0%, 0, 0px);
+  
 }
 
 .swiper-slide:nth-child(2n) {
   background-color: rgb(0, 140, 255);
-  transform: translate3d(40%, 0, -100px);
+ 
 }
 
 .swiper-slide:nth-child(3n) {
   background-color: rgb(10, 184, 111);
-  transform: translate3d(80%, 0, -250px);
+ 
 }
 
 .swiper-slide:nth-child(4n) {
   background-color: rgb(211, 122, 7);
-  transform: translate3d(-80%, 0, -250px);
+  
 }
 
 .swiper-slide:nth-child(5n) {
@@ -262,6 +267,7 @@ h5:last-of-type {
 
 .swiper-slide:nth-child(6n) {
   background-color: rgb(180, 10, 47);
-  transform: translate3d(-40%, 0, -100px);
+
 }
 
+/* portfolio section 1 slides end*/

@@ -1,4 +1,6 @@
 import React from "react";
+import Deck from "./Deck"
+import styles from "../../styles/Home.module.css"
 
 function PortFolio2() {
   return (
