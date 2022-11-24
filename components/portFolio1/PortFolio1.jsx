@@ -17,18 +17,19 @@ function PortFolio1() {
               <h1
                 className={`${styles.rev_blockMainHeading} ${styles.portFolioMainHeading}`}
               >
-                Recrutability
+                Mudirr
               </h1>
               <h1
                 className={`${styles.rev_blockSubHeading} ${styles.portFolioSubHeading} `}
               >
-                Portfolio Platform
+                Management-as-a-Service
               </h1>
 
               <p className={` ${styles.rev_blockPera} ${styles.portFolio1Pera}`}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum ut feugiat nulla. Pellentesque a efficitur quam.
-                Proin eu lobortis augue.
+               Mudirr gives you access to its pool of techical resources
+              to set up, clean up,& easily manage even the most 
+              hectic projects, communicate plans with your assigned 
+              team, and ensure your team stays on the same page.
               </p>
               <div className={` ${"d-flex"} ${styles.rev_blockLink} ${styles.portFolio1Link}`}>
                 <div className={styles.linkCricle}></div>
@@ -38,7 +39,7 @@ function PortFolio1() {
                 
               </div>
             </div>
-            <div className="col-lg-5 col-md-5 col-sm-12 col-12 mt-lg-0 mt-md-0 mt-sm-3 mt-3">
+            <div className="col-lg-5 col-md-5 col-sm-12 col-12 mt-lg-0 mt-md-0 mt-sm-3 mt-5">
               {/* <div className="frame"></div> */}
               <PortFolio1ImgsSlider />
             </div>

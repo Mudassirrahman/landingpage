@@ -215,16 +215,16 @@ h5:last-of-type {
   width: 24.5rem;
   height: 21.9375rem;
 }
- @media (max-width:786px){
+ @media (max-width:400px){
   .swiper{
-    width: 15.5rem;
-    height: 14.125rem;
+    width: 16rem;
+    height: 15.125rem;
     margin-left:1.25rem !important;
     margin-right: 1.25rem !important;
   }
   .mySwiper{
-    margin-left:1.25rem !important;
-    margin-right: 1.25rem !important;
+    margin-left:auto !important;
+    margin-right: auto !important;
   }
  }
 .swiper-3d{
