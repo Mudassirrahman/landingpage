@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 
 import { EffectCards } from "swiper";
+import Image from "next/image";
 
 function PortFolio1ImgsSlider() {
   return (
@@ -22,19 +23,35 @@ function PortFolio1ImgsSlider() {
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
-          
         }}
         pagination={{
           clickable: true,
         }}
         navigation={true}
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/Images/ProjectImage2.png"
+            width="392"
+            height="351"
+          ></Image>
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <Image
+            src="/Images/ProjectImage1.png"
+            width="392"
+            height="351"
+          ></Image>
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <Image
+            src="/Images/ProjectImage0.png"
+            width="392"
+            height="351"
+          ></Image>
+        </SwiperSlide>
       </Swiper>
     </>
   );

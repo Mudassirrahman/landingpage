@@ -6,6 +6,7 @@ import PortFolio1 from "../components/portFolio1/PortFolio1"
 import PortFolio2 from "../components/portFolio2/PortFolio2"
 import Footer1 from "../components/footer/Footer1";
 import Footer2 from "../components/footer/Footer2";
+import PortFolio3 from "../components/portFolio3/PortFolio3";
 
 export default function Home() {
   const [scroll, setScroll] = useState(0);
@@ -52,7 +53,8 @@ export default function Home() {
         
         <HeroSec />
         <PortFolio1 />
-        {/* <PortFolio2 /> */}
+        <PortFolio2 /> 
+        <PortFolio3 /> 
         <Footer1 />
         <Footer2 />
         </div>
