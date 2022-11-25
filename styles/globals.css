@@ -215,7 +215,46 @@ h5:last-of-type {
   width: 24.5rem;
   height: 21.9375rem;
 }
- @media (max-width:428px){
+
+@media (max-width:528px){
+  .swiper{
+    width: 20rem !important;
+    height: 21.125rem !important;
+    margin-left:1.25rem !important;
+    margin-right: 1.25rem !important;
+  }
+  .mySwiper{
+    margin-left:auto !important;
+    margin-right: auto !important;
+  }
+ }
+
+ @media (max-width:430px){
+  .swiper{
+    width: 18rem !important;
+    height: 15.125rem !important;
+    margin-left:1.25rem !important;
+    margin-right: 1.25rem !important;
+  }
+  .mySwiper{
+    margin-left:auto !important;
+    margin-right: auto !important;
+  }
+ }
+ @media (max-width:395px){
+  .swiper{
+    width: 17rem !important;
+    height: 15.125rem !important;
+    margin-left:1.25rem !important;
+    margin-right: 1.25rem !important;
+  }
+  .mySwiper{
+    margin-left:auto !important;
+    margin-right: auto !important;
+  }
+ }
+
+ @media (max-width:375px){
   .swiper{
     width: 15rem !important;
     height: 15.125rem !important;
@@ -227,6 +266,7 @@ h5:last-of-type {
     margin-right: auto !important;
   }
  }
+
 .swiper-3d{
   perspective: 880px !important;
   /* transform-style: preserve-3d !important; */
