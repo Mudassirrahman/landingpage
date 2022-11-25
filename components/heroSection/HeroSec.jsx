@@ -11,7 +11,7 @@ function HeroSec() {
           <div className=" d-lg-block d-md-block d-sm-block d-flex">
             <div className="">
               <h1 className={styles.heading}>It’s Asim Naveed,</h1>
-              <h1 className={styles.heading1}>An Entrepreneur & Investor.</h1>
+              <h1 className={styles.heading1}>An Internet Entrepreneur & Investor</h1>
             </div>
             <div className={` ${"d-lg-none d-md-none d-sm-none d-block"} ${styles.heroSectionBtnDivSize} `}>
               <a

@@ -69,6 +69,6 @@
   .heroSectionBtnDivSize{
     width: 101px;
     height: 101px;
-    margin-left: 8px;
+    margin: auto;
   }
 }
