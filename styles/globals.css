@@ -218,8 +218,8 @@ h5:last-of-type {
 
 @media (max-width:528px){
   .swiper{
-    width: 20rem !important;
-    height: 21.125rem !important;
+    width: 19.6rem !important;
+    height: 19.125rem !important;
     margin-left:1.25rem !important;
     margin-right: 1.25rem !important;
   }
@@ -232,7 +232,7 @@ h5:last-of-type {
  @media (max-width:430px){
   .swiper{
     width: 18rem !important;
-    height: 15.125rem !important;
+    height: 17.125rem !important;
     margin-left:1.25rem !important;
     margin-right: 1.25rem !important;
   }
