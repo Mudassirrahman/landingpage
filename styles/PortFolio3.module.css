@@ -1,6 +1,6 @@
 .marginTop {
     margin-top: 22.4375rem;
-    margin-bottom: 72px;
+    margin-bottom: 76px;
   }
   
   @media (max-width:768px){
@@ -63,10 +63,10 @@
       display: none;
     }
     .portFolio3Link{
-      margin-top: 0% !important;
+      margin-top: 5% !important;
     }
     .linkCricle{
-      margin-top: 0% !important;
+      margin-top: 4% !important;
     }
   }
   .portFolio3Link {

@@ -1,12 +1,24 @@
 .marginTopFoo {
   margin-top: 9rem;
 }
-.footerPaddingTop{
-  padding-top: 7rem !important;
+
+@media (min-width:768px){
+  .footerPaddingTop{
+    padding-top: 7rem !important;
+  }
 }
+
 @media (max-width:768px){
   .marginTopFoo{
     margin-top: 2.5rem !important;
+    
+  }
+}
+
+@media (max-width:575px){
+  .FooterBtn{
+    margin-bottom: 111px;
+    
   }
 }
 
