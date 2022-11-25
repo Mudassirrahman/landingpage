@@ -9,7 +9,7 @@ function Footer2() {
     <div className={styles.footerbg}>
       <div className={styles.containerFooter2}>
         <div className="d-flex justify-content-between">
-          <ul className="d-flex gap-4">
+          <ul className="d-flex gap-4 p-0">
             <li className="list-unstyled">
               <a
                 className={`${"text-decoration-none pb-2  d-xl-flex d-lg-flex d-md-flex d-sm-flex d-none"} ${styles.linkTextColor} ${styles.linkTextColorLinkedin} ${styles.custmBorder1}`}
