@@ -1,5 +1,8 @@
 .marginTopFoo {
-  margin-top: 18rem;
+  margin-top: 9rem;
+}
+.footerPaddingTop{
+  padding-top: 7rem !important;
 }
 @media (max-width:768px){
   .marginTopFoo{

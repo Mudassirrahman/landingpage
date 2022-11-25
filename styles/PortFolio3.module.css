@@ -1,0 +1,175 @@
+.marginTop {
+    margin-top: 22.4375rem;
+    margin-bottom: 72px;
+  }
+  
+  @media (max-width:768px){
+    .marginTop{
+      margin-top: 7.1875rem !important;
+    }
+  }
+  
+  .portFolio3Degit {
+    /* width: 33px;
+    height: 45px; */
+    font-family: "Apercu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #52b04e;
+    margin-bottom: 0;
+  }
+  
+  .portFolioMainHeading {
+    /* width: 274px;
+  height: 67px; */
+    font-family: "Apercu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #082009;
+    /* margin-top: 3rem; */
+    margin-bottom: 0;
+  }
+  
+  .portFolioSubHeading {
+    /* width: 196px;
+  height: 34px; */
+    font-family: "Apercu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 67px;
+    color: #082009 !important;
+    /* margin-top: 0.5rem; */
+    margin-bottom: 0;
+  }
+  
+  .portFolio3Pera {
+    font-family: "Apercu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #6d7e6d !important;
+    margin-top: 1rem;
+  }
+  
+  @media (max-width:768px){
+    .portFolio3Pera{
+      display: none;
+    }
+    .portFolio3Link{
+      margin-top: 0% !important;
+    }
+    .linkCricle{
+      margin-top: 0% !important;
+    }
+  }
+  .portFolio3Link {
+    font-family: "Apercu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    color: #082009;
+    margin-top: 130px;
+  }
+  
+  .linkCricle {
+    width: 24px;
+    height: 24px;
+    background: #52b04e;
+    border-radius: 24px;
+    margin-top: 8.5rem;
+    margin-right: 1rem;
+  }
+  
+  
+  
+  @media (max-width:768px){
+    .custmPera{
+      display: none;
+    }
+  }
+  
+  @media (min-width:768px){
+  
+    .rev_block {
+      position: absolute;
+      top: 2228px;
+    }
+    .rev_blockMainHeading{
+  position: absolute;
+  top: 2321px;
+    }
+    .rev_blockSubHeading{
+      position: absolute;
+      top: 2396px;
+    }
+  
+    .rev_blockPera{
+      position: absolute;
+      width: 600px;
+      top: 2446px;
+    }
+  
+  .rev_block:after , .rev_blockMainHeading:after , .rev_blockSubHeading:after{
+    content: '';
+    top: 10%;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 80%;
+    background: #082009;
+    animation: rev_block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    animation-delay: 1s;
+  }
+  
+  .rev_blockPera:after{
+    content: '';
+    top: 10%;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    background: #6D7E6D;
+    animation: rev_block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    animation-delay: 1s;
+    
+  }
+  
+  }
+  
+  
+  
+  @keyframes rev_block {
+  
+    0% {
+         left: 0;
+         width: 100%;
+    }
+    50% {
+         left: 0;
+         width: 100%;
+    }
+    100% {
+         left: 100%;
+         width: 0%;
+    }
+  
+  }
+  
+  @keyframes appear-text {
+  
+    0% {
+         opacity: 0;
+    }
+    100% {
+         opacity: 1;
+    }
+  
+  }

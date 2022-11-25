@@ -1,6 +1,6 @@
 import React from "react";
 import PortFolio1ImgsSlider from "../portFolio1/PortFolio1ImgsSlider";
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/PortFolio3.module.css";
 
 function PortFolio3() {
   return (
@@ -9,7 +9,7 @@ function PortFolio3() {
         <div className={styles.marginTop}>
           <div className="row justify-content-between">
             <div className="col-lg-7 col-md-6 col-sm-12 col-12">
-              <h1 className={`${styles.rev_block} ${styles.portFolio1Degit}`}>03</h1>
+              <h1 className={`${styles.rev_block} ${styles.portFolio3Degit}`}>03</h1>
               <h1
                 className={`${styles.rev_blockMainHeading} ${styles.portFolioMainHeading}`}
               >
@@ -21,15 +21,15 @@ function PortFolio3() {
                 Fashion-Wear
               </h1>
 
-              <p className={` ${styles.rev_blockPera} ${styles.portFolio1Pera}`}>
+              <p className={` ${styles.rev_blockPera} ${styles.portFolio3Pera}`}>
               Straight from the heart, for the love of style - YUREK is a
               brand that hopes to cater to all your styling fix, last-
               minute picks, and basic lifestyle kicks.
               </p>
-              <div className={` ${"d-flex"} ${styles.rev_blockLink} ${styles.portFolio1Link}`}>
+              <div className={` ${"d-flex"} ${styles.rev_blockLink} ${styles.portFolio3Link}`}>
                 <div className={styles.linkCricle}></div>
                 <div>
-                <h4 className={styles.portFolio1Link}>Visit Website</h4>
+                <h4 className={styles.portFolio3Link}>Visit Website</h4>
                 </div>
                 
               </div>

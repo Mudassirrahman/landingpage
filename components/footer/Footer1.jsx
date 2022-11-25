@@ -4,7 +4,7 @@ import styles from "../../styles/Footer1.module.css";
 function Footer1() {
   return (
     <div className={styles.marginTopFoo}>
-    <div className={`" px-4 py-lg-5 py-md-5 py-sm-5 py-0 text-center" ${styles.footerbg} `}>
+    <div className={`" px-4 py-lg-5 py-md-5 py-sm-5 py-0 text-center" ${styles.footerbg} ${styles.footerPaddingTop} `}>
       <div className="py-5">
         <div className="col-lg-6 py-lg-3 py-md-3 py-sm-3 py-0 mx-auto">
           <p className={`" px-4 mb-5 tColor" ${styles.footerHeading} ${styles.tColor} `}>
