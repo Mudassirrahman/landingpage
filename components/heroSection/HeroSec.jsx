@@ -13,10 +13,10 @@ function HeroSec() {
               <h1 className={styles.heading}>It’s Asim Naveed,</h1>
               <h1 className={styles.heading1}>An Entrepreneur & Investor.</h1>
             </div>
-            <div className="d-lg-none d-md-none d-sm-none d-block mt-4 ms-2">
+            <div className={` ${"d-lg-none d-md-none d-sm-none d-block"} ${styles.heroSectionBtnDivSize} `}>
               <a
                 href=""
-                class="btn btn-default btn-rounded mb-4"
+                class="btn btn-default btn-rounded mb-4 p-0"
                 data-bs-toggle="modal"
                 data-bs-target="#modalContactForm"
               >

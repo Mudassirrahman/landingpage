@@ -49,9 +49,10 @@
     font-family: "Apercu";
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 28px !important;
     line-height: 140%;
     letter-spacing: -0.02em;
+    width: 13.1875rem;
   }
 
   .heading{
@@ -59,9 +60,15 @@
   }
   .heroPera{
     font-size: 14px;
+    margin-top: 24px;
   }
 
   .marginTop {
     margin-top: 7.1875rem;
+  }
+  .heroSectionBtnDivSize{
+    width: 101px;
+    height: 101px;
+    margin-left: 8px;
   }
 }
