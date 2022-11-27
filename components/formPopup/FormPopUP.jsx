@@ -1,7 +1,50 @@
-import React from "react";
+import React, { useState , useEffect } from "react";
 import styles from "../../styles/FormPopUP.module.css"
 
 function FormPopUP() {
+  const [contactInput, setContactInput] = useState({
+    Name: "",
+    Email: "",
+    Subject: "",
+    Message: ""
+  });
+  const [formEroors, setFormEroors] = useState({});
+  const [isSubmit, setIsSubmit] = useState(false);
+  const handleChange = (event) => {
+    setContactInput({ ...contactInput, [event.target.name]: event.target.value });
+  };
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setFormEroors(validate(contactInput));
+    setIsSubmit(true);
+  };
+  useEffect(() => {
+    console.log(formEroors)
+    if (Object.keys(formEroors).length === 0 & isSubmit) {
+
+    }
+  }, [formEroors]
+  )
+  const validate = (values) => {
+    const eroors = {};
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    if (!values.Name) {
+      eroors.Name = "username is required !";
+    }
+    if (!values.Email) {
+      eroors.Email = "Enter a valid email address. !"
+    }
+    if (!values.Subject) {
+      eroors.Subject = "Subject Line is required !"
+    }
+    if (!values.Message) {
+      eroors.Message = "Message is required !"
+    }
+    return eroors
+  }
+  function submitInfo() {
+    console.log(contactInput);
+  }
   return (
     <>
       <div
@@ -13,6 +56,7 @@ function FormPopUP() {
         aria-hidden="true"
       >
         <div className="modal-dialog" role="document">
+        
           <div className="modal-content">
             <div className="modal-header border-0 text-center">
               <h4 className={`${"modal-title w-100"} ${styles.formHeading}`}>
@@ -27,34 +71,50 @@ function FormPopUP() {
                 <span aria-hidden="true"></span>
               </button>
             </div>
+            <form  onSubmit={handleSubmit}>
             <div className="modal-body mx-3">
               <div className="md-form mb-3">
                 <input
                   type="text"
+                  name='Name'
+                  value={contactInput.Name}
+                  onChange={handleChange}
                   id="form34"
                   className="form-control validate inputHeight"
                   placeholder="Your name"
                 />
               </div>
+              <p className='text-start text-danger'>{formEroors.Name}</p>
               <div className="md-form mb-3">
                 <input
                   type="email"
+                  name="Email"
+                  value={contactInput.Email}
+                  onChange={handleChange}
                   id="form29"
                   className="form-control validate inputHeight"
                   placeholder="Email address"
                 />
               </div>
+              <p className='text-start text-danger'>{formEroors.Email}</p>
               <div className="md-form mb-3">
                 <input
                   type="text"
+                  name='Subject'
+                  value={contactInput.Subject}
+                  onChange={handleChange}
                   id="form32"
                   className="form-control validate inputHeight"
                   placeholder="Subject line"
                 />
               </div>
+              <p className='text-start text-danger'>{formEroors.Subject}</p>
               <div className="md-form">
                 <textarea
                   type="text"
+                  name='Message'
+                  value={contactInput.Message}
+                  onChange={handleChange}
                   id="form8"
                   className="md-textarea form-control msgHeight mb-1"
                   rows="4"
@@ -62,11 +122,14 @@ function FormPopUP() {
                 ></textarea>
                 {/* <input type="file" name="" id="" className="form-control" /> */}
               </div>
+              <p className='text-start text-danger'>{formEroors.Message}</p>
             </div>
             <div className="modal-footer d-flex justify-content-center mx-3 border-0">
-              <button className={`${"btn w-100 px-5"} ${styles.btnbg1} ${styles.formBtnHeight}`}>SUBMIT</button>
+              <button  type="submit" onClick={submitInfo} className={`${"btn w-100 px-5"} ${styles.btnbg1} ${styles.formBtnHeight}`}>SUBMIT</button>
             </div>
+            </form>
           </div>
+         
         </div>
       </div>
     </>

@@ -36,6 +36,7 @@ export default function Home() {
           <meta name="google-site-verification" content="fnFYNa8YNCweLB2KhX1kLq98nazuE0jWsHNz03tc4U0" />
           <title>Asim Naveed - An Internet Entrepreneur & Investor</title>
           {/* <link rel="icon" href="/logo_black.svg" /> */}
+          <link rel="icon" href="/AsimNaveed.jpg" />
           <link
             rel="stylesheet"
             href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
