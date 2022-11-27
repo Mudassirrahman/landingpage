@@ -14,18 +14,18 @@ function FormPopUP() {
   const handleChange = (event) => {
     setContactInput({ ...contactInput, [event.target.name]: event.target.value });
   };
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    setFormEroors(validate(contactInput));
-    setIsSubmit(true);
-  };
-  useEffect(() => {
+
+  function submitInfo() {
+    console.log(contactInput);
+  }
+
+  const form = useRef(() => {
     console.log(formEroors)
     if (Object.keys(formEroors).length === 0 & isSubmit) {
 
     }
-  }, [formEroors]
-  )
+  }, [formEroors]);
+
   const validate = (values) => {
     const eroors = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
@@ -43,13 +43,12 @@ function FormPopUP() {
     }
     return eroors
   }
-  function submitInfo() {
-    console.log(contactInput);
-  }
 
-  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
+    
+    setFormEroors(validate(contactInput));
+    setIsSubmit(true);
 
     emailjs.sendForm('service_3r0765j', 'template_kj7fl3p', form.current, 'XeP31hfRTtvw6MP6c')
       .then((result) => {
@@ -57,7 +56,7 @@ function FormPopUP() {
       }, (error) => {
           console.log(error.text);
       });
-      alert("Thanks for your valuable comments.")
+      
   };
 
   return (
