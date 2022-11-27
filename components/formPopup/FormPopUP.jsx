@@ -1,4 +1,5 @@
-import React, { useState , useEffect } from "react";
+import React, { useState , useEffect, useRef } from "react";
+import emailjs from '@emailjs/browser';
 import styles from "../../styles/FormPopUP.module.css"
 
 function FormPopUP() {
@@ -45,6 +46,20 @@ function FormPopUP() {
   function submitInfo() {
     console.log(contactInput);
   }
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_3r0765j', 'template_kj7fl3p', form.current, 'XeP31hfRTtvw6MP6c')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      alert("form submited!")
+  };
+
   return (
     <>
       <div
@@ -71,7 +86,7 @@ function FormPopUP() {
                 <span aria-hidden="true"></span>
               </button>
             </div>
-            <form  onSubmit={handleSubmit}>
+            <form  ref={form}  onSubmit={sendEmail}>
             <div className="modal-body mx-3">
               <div className="md-form mb-3">
                 <input
