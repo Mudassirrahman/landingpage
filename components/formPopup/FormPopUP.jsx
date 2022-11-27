@@ -56,7 +56,9 @@ function FormPopUP() {
       }, (error) => {
           console.log(error.text);
       });
+
       
+      setContactInput(" ")
   };
 
   return (
