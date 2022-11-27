@@ -57,7 +57,7 @@ function FormPopUP() {
       }, (error) => {
           console.log(error.text);
       });
-      alert("form submitted!")
+      alert("Thanks for your valuable comments.")
   };
 
   return (
