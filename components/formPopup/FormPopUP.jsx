@@ -96,6 +96,7 @@ function FormPopUP() {
                   id="form34"
                   className="form-control validate inputHeight"
                   placeholder="Your name"
+                  required
                 />
               </div>
               <p className='text-start text-danger'>{formEroors.Name}</p>
@@ -108,6 +109,7 @@ function FormPopUP() {
                   id="form29"
                   className="form-control validate inputHeight"
                   placeholder="Email address"
+                  required
                 />
               </div>
               <p className='text-start text-danger'>{formEroors.Email}</p>
@@ -120,6 +122,7 @@ function FormPopUP() {
                   id="form32"
                   className="form-control validate inputHeight"
                   placeholder="Subject line"
+                  required
                 />
               </div>
               <p className='text-start text-danger'>{formEroors.Subject}</p>
@@ -133,6 +136,7 @@ function FormPopUP() {
                   className="md-textarea form-control msgHeight mb-1"
                   rows="4"
                   placeholder="Enter your message"
+                  required
                 ></textarea>
                 {/* <input type="file" name="" id="" className="form-control" /> */}
               </div>
