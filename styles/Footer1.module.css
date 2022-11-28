@@ -66,6 +66,9 @@
   font-size: 18px !important;
   line-height: 135%;
 }
+.btnbg1:hover{
+  background: #358132 !important;
+}
 
 .btnbg2 {
   box-sizing: border-box;
@@ -80,6 +83,10 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 135%;
+}
+.btnbg2:hover{
+  background-color: #DFEADF !important;
+  color: #358132 !important;
 }
 @media (min-width: 576px) {
   .btnbg1,

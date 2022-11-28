@@ -16,15 +16,15 @@ function HeroSec() {
             <div className={` ${"d-lg-none d-md-none d-sm-none d-block"} ${styles.heroSectionBtnDivSize} `}>
               <a
                 href=""
-                class="btn btn-default btn-rounded mb-4 p-0"
+                className={` ${"btn btn-default btn-rounded mb-4 p-0"} ${styles.heroSectionImg} `}
                 data-bs-toggle="modal"
                 data-bs-target="#modalContactForm"
-                className={styles.heroSectionImg}
               >
                 <Image
                   src="/Pitch Your Idea.PNG.png"
                   width="101"
                   height="101"
+                  className={styles.imgHover}
                 ></Image>
               </a>
             </div>
@@ -39,7 +39,7 @@ function HeroSec() {
         <div className={` ${" d-lg-flex d-md-flex d-sm-flex d-none flex-column-reverse"} ${styles.heroSectionBtnDivSizeWebView} `}>
           <a
             href=""
-            class="btn btn-default btn-rounded"
+            className="btn px-0 btn-default btn-rounded"
             data-bs-toggle="modal"
             data-bs-target="#modalContactForm"
           >
@@ -47,6 +47,7 @@ function HeroSec() {
               src="/Pitch Your Idea.PNG.png"
               width="132"
               height="132"
+              className={styles.imgHover}
             ></Image>
           </a>
         </div>
