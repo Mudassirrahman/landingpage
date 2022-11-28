@@ -39,7 +39,7 @@ function PortFolio1() {
                 
               </div>
             </div>
-            <div className="col-lg-5 col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-0 mt-sm-3 mt-5">
+            <div className="col-lg-5 col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-0 mt-sm-3 mt-4">
               {/* <div className="frame"></div> */}
               <PortFolio1ImgsSlider />
             </div>
