@@ -311,10 +311,9 @@
     content: "";
     top: 10%;
     left: 0;
-    position: absolute;
+    position: static;
     width: 0%;
     height: 80%;
-    background: #082009;
     animation: rev_block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     animation-delay: 1s;
   }
