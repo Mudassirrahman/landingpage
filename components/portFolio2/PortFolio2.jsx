@@ -37,7 +37,7 @@ function PortFolio2() {
                 </div>
                 </div>
         </div>
-        <div className="col-lg-5 col-md-5 col-sm-12 col-12 mt-lg-0 mt-md-0 mt-sm-3 mt-5 ">
+        <div className="col-lg-5 col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-0 mt-sm-3 mt-5 ">
           {/* <div className="">
             <Deck />
           </div> */}
