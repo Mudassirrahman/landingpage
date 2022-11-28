@@ -1,6 +1,6 @@
 .row {
   display: flex;
-  gap: 6.3rem;
+  gap: 5.6rem;
 }
 
 .marginTop {
@@ -50,6 +50,69 @@
   margin-top: 6rem;
 }
 
+@media (max-width:1025px){
+
+  .heading1{
+    font-size: 36px !important;
+    
+  }
+  
+  .heroSectionBtnDivSizeWebView{
+    margin-top: 1rem !important;
+  }
+  .heroPera{
+    width: 150%;
+  }
+}
+
+@media (max-width:876px){
+
+  .heading1{
+    font-size: 30px !important;
+    width: 350px;
+    
+  }
+  
+  .heroSectionBtnDivSizeWebView{
+    margin-top: 1rem !important;
+  }
+  .heroPera{
+    width: 150%;
+  }
+}
+
+@media (max-width:768px){
+
+  .row {
+    display: flex;
+    gap: 0;
+  }
+
+  /* .custmwidthMediaSreen{
+    width: 360px !important;
+    margin-right: 0px !important;
+  } */
+
+.custmWidthHeroDEV{
+  width: 550px;
+}
+
+  .heading1{
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .heroPera{
+    font-size: 18px;
+    margin-top: 55px;
+    width: 100%;
+  }
+  .heroSectionImg{
+    margin-right: 1rem;
+  }
+
+}
+
 @media (max-width: 575px) {
   .heading1 {
     font-family: "Apercu";
@@ -67,6 +130,7 @@
   .heroPera{
     font-size: 14px;
     margin-top: 24px;
+    /* width: 83%; */
   }
 
   .marginTop {
@@ -75,6 +139,6 @@
   .heroSectionBtnDivSize{
     width: 101px;
     height: 101px;
-    margin: auto;
+    margin:auto;
   }
 }

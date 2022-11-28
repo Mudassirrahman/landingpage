@@ -55,9 +55,9 @@ export default function Home() {
           </div>
         
         <HeroSec />
-        <PortFolio1 />
+        {/* <PortFolio1 />
         <PortFolio2 /> 
-        <PortFolio3 /> 
+        <PortFolio3 />  */}
         <Footer1 />
         <Footer2 />
         </div>

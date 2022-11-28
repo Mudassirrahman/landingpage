@@ -19,6 +19,7 @@ function HeroSec() {
                 class="btn btn-default btn-rounded mb-4 p-0"
                 data-bs-toggle="modal"
                 data-bs-target="#modalContactForm"
+                className={styles.heroSectionImg}
               >
                 <Image
                   src="/Pitch Your Idea.PNG.png"
@@ -35,7 +36,7 @@ function HeroSec() {
             inventions.
           </p>
         </div>
-        <div className={` ${"col-xl-3 col-lg-2 col-md-2 col-sm-2 col-2 d-lg-flex d-md-flex d-sm-flex d-none flex-column-reverse"} ${styles.heroSectionBtnDivSizeWebView} `}>
+        <div className={` ${" d-lg-flex d-md-flex d-sm-flex d-none flex-column-reverse"} ${styles.heroSectionBtnDivSizeWebView} `}>
           <a
             href=""
             class="btn btn-default btn-rounded"
