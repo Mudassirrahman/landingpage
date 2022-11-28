@@ -31,7 +31,7 @@ function PortFolio1() {
               hectic projects, communicate plans with your assigned 
               team, and ensure your team stays on the same page.
               </p>
-              <div className={` ${"d-flex"} ${styles.rev_blockLink} ${styles.portFolio1Link}`}>
+              <div className={` ${"d-flex"} ${styles.rev_blockLink} ${styles.portFolio1Link} ${styles.portFolio1LinkDiv}`}>
                 <div className={styles.linkCricle}></div>
                 <div>
                 <h4 className={styles.portFolio1Link}>Visit Website</h4>

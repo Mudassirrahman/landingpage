@@ -222,6 +222,68 @@ h5:last-of-type {
   height: 21.9375rem;
 }
 
+@media (max-width:1339px){
+  .swiper{
+    width: 22rem !important;
+    height: 21.125rem !important;
+    margin-left:1.25rem !important;
+    margin-right: 1.25rem !important;
+  }
+  .mySwiper{
+    margin-left:auto !important;
+    margin-right: auto !important;
+  }
+ }
+ @media (max-width:1273px){
+  .swiper{
+    width: 21rem !important;
+    height: 21rem !important;
+    margin-left:1.25rem !important;
+    margin-right: 1.25rem !important;
+  }
+  .mySwiper{
+    margin-left:auto !important;
+    margin-right: auto !important;
+  }
+ }
+
+ @media (max-width:1180px){
+  .swiper{
+    width: 19rem !important;
+    height: 19rem !important;
+    margin-left:1.25rem !important;
+    margin-right: 1.25rem !important;
+  }
+  .mySwiper{
+    margin-left:auto !important;
+    margin-right: auto !important;
+  }
+ }
+ @media (max-width:1110px){
+  .swiper{
+    width: 18rem !important;
+    height: 18rem !important;
+    margin-left:1.25rem !important;
+    margin-right: 1.25rem !important;
+  }
+  .mySwiper{
+    margin-left:auto !important;
+    margin-right: auto !important;
+  }
+ }
+
+ @media (max-width:991px){
+  .swiper{
+    margin-top: 2rem;
+    margin-left:1.25rem !important;
+    margin-right: 1.25rem !important;
+  }
+  .mySwiper{
+    margin-left:auto !important;
+    margin-right: auto !important;
+  }
+ }
+
 @media (max-width:528px){
   .swiper{
     width: 19.6rem !important;

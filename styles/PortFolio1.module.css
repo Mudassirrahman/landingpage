@@ -57,6 +57,9 @@ height: 34px; */
   color: #6d7e6d !important;
   margin-top: 1rem;
 }
+.portFolio1LinkDiv{
+  width: 250px;
+}
 
 @media (max-width:768px){
   .portFolio1Pera{
@@ -88,9 +91,38 @@ height: 34px; */
   margin-top: 9.8rem;
   margin-right: 1rem;
 }
+@media (max-width:1980px){
+  .rev_blockPera{
+    width: 600px;
+  }
+}
+@media (max-width:1339px){
+  .rev_blockPera{
+    width: 550px;
+  }
+}
+@media (max-width:1273px){
+  .rev_blockPera{
+    width: 500px;
+  }
+}
 
+@media (max-width:1180px){
+  .rev_blockPera{
+    width: 450px;
+  }
+}
+@media (max-width:1110px){
+  .rev_blockPera{
+    width: 400px;
+  }
+}
 
-
+@media (max-width:991px){
+  .rev_blockPera{
+    width: 600px;
+  }
+}
 @media (max-width:768px){
   .custmPera{
     display: none;
@@ -114,7 +146,6 @@ top: 917px;
 
   .rev_blockPera{
     position: absolute;
-    width: 600px;
     top: 1042px;
   }
 
