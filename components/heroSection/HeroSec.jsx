@@ -21,7 +21,7 @@ function HeroSec() {
                 data-bs-target="#modalContactForm"
               >
                 <Image
-                  src="/Pitch Your Idea.PNG.png"
+                  src="/pitchYourIdeaBTN.png"
                   width="101"
                   height="101"
                   className={styles.imgHover}
@@ -44,7 +44,7 @@ function HeroSec() {
             data-bs-target="#modalContactForm"
           >
             <Image
-              src="/Pitch Your Idea.PNG.png"
+              src="/pitchYourIdeaBTN.png"
               width="132"
               height="132"
               className={styles.imgHover}
