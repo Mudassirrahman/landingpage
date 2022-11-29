@@ -67,6 +67,7 @@ function FormPopUP() {
                   className="form-control validate inputHeight"
                   placeholder="Your name"
                   required
+                  autocomplete="off"
                 />
               </div>
              
@@ -80,6 +81,7 @@ function FormPopUP() {
                   className="form-control validate inputHeight"
                   placeholder="Email address"
                   required
+                  autocomplete="off"
                 />
               </div>
            
@@ -93,6 +95,7 @@ function FormPopUP() {
                   className="form-control validate inputHeight"
                   placeholder="Subject line"
                   required
+                  autocomplete="off"
                 />
               </div>
              
@@ -107,6 +110,7 @@ function FormPopUP() {
                   rows="4"
                   placeholder="Enter your message"
                   required
+                  autocomplete="off"
                 ></textarea>
                 {/* <input type="file" name="" id="" className="form-control" /> */}
               </div>
