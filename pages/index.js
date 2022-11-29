@@ -43,15 +43,6 @@ export default function Home() {
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
             crossorigin="anonymous"
           />
-{/* AOS ANNIMATION */}
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
           {/* <script src="sc.js"></script> */}
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         </Head>
