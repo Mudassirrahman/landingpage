@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/Link";
 import Deck from "./Deck"
 import PortFolio1ImgsSlider from "../portFolio1/PortFolio1ImgsSlider"
 import styles from "../../styles/PortFolio2.module.css"
@@ -33,7 +34,7 @@ function PortFolio2() {
           <div className={` ${"d-flex"} ${styles.rev_blockLink} ${styles.portFolio2Link}`}>
                 <div className={styles.linkCricle}></div>
                 <div>
-                <h4 className={styles.portFolio2Link}>Visit Website</h4>
+                <h4 className={styles.portFolio2Link}><Link className={styles.portFolio2Link} href="https://recrutability.com">Visit Website</Link></h4>
                 </div>
                 </div>
         </div>

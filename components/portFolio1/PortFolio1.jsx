@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from "next/Link"
 import styles from "../../styles/PortFolio1.module.css";
 import PortFolio1ImgsSlider from "./PortFolio1ImgsSlider";
 
@@ -34,7 +35,7 @@ function PortFolio1() {
               <div className={` ${"d-flex"} ${styles.rev_blockLink} ${styles.portFolio1Link} ${styles.portFolio1LinkDiv}`}>
                 <div className={styles.linkCricle}></div>
                 <div>
-                <h4 className={styles.portFolio1Link}>Visit Website</h4>
+                <h4 className={styles.portFolio1Link}><Link className={styles.portFolio1Link} href="https://mudirr.com">Visit Website</Link></h4>
                 </div>
                 
               </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import PortFolio1ImgsSlider from "../portFolio1/PortFolio1ImgsSlider";
 import styles from "../../styles/PortFolio3.module.css";
+import Link from "next/Link";
 
 function PortFolio3() {
   return (
@@ -29,7 +30,7 @@ function PortFolio3() {
               <div className={` ${"d-flex"} ${styles.rev_blockLink} ${styles.portFolio3Link}`}>
                 <div className={styles.linkCricle}></div>
                 <div>
-                <h4 className={styles.portFolio3Link}>Visit Website</h4>
+                <h4 className={styles.portFolio3Link}><Link  className={styles.portFolio3Link} href="https://yurek.pk">Visit Website</Link></h4>
                 </div>
                 
               </div>
