@@ -30,7 +30,7 @@ function PortFolio3() {
               <div className={` ${"d-flex"} ${styles.rev_blockLink} ${styles.portFolio3Link}`}>
                 <div className={styles.linkCricle}></div>
                 <div>
-                <h4 className={styles.portFolio3Link}><Link  className={styles.portFolio3Link} href="https://yurek.pk">Visit Website</Link></h4>
+                <h4 className={styles.portFolio3Link}><Link  className={styles.portFolio3Link} href="https://yurek.pk"  target="_blank">Visit Website</Link></h4>
                 </div>
                 
               </div>

@@ -32,7 +32,7 @@ function PortFolio1() {
                 <div className={styles.linkCricle}></div>
                 <div>
                 <h4 className={styles.portFolio1Link}>
-                <Link className={styles.portFolio1Link} href="https://mudirr.com">Visit Website</Link>
+                <Link className={styles.portFolio1Link} href="https://mudirr.com"  target="_blank">Visit Website</Link>
                 </h4>
                 </div>
               </div>
