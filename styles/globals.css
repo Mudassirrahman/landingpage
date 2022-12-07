@@ -390,5 +390,5 @@ h5:last-of-type {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #A0AEC0 !; 
+  background: #A0AEC0 !important; 
 }
