@@ -11,7 +11,6 @@ function PortFolio2() {
       <div className="row justify-content-between">
         <div className="col-lg-7 col-md-6 col-sm-12 col-12">
           <h1 className={`${styles.rev_block} ${styles.portFolio2Degit}`}>
-            {/* <h1 className={`" text-success  " ${styles.rev_block} `}> */}
             02
           </h1>
           <p className={`${styles.rev_blockMainHeading} ${styles.portFolioMainHeading}`}>Recrutability</p>
@@ -22,10 +21,7 @@ function PortFolio2() {
            Portfolio-as-a-Service 
           </h1>
 
-          <p
-            className={` ${styles.rev_blockPera} ${styles.portFolio2Pera}`}
-            // style={{ width: "50%" }}
-          >
+          <p className={` ${styles.rev_blockPera} ${styles.portFolio2Pera}`}>
            Recrutability is a portfolio-as-a-service platform that 
            allows freelancers & independent professionals to build a 
            portfolio site with us and for the recruiter to discover — 

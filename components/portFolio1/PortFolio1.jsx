@@ -7,9 +7,6 @@ import PortFolio1ImgsSlider from "./PortFolio1ImgsSlider";
 function PortFolio1() {
   return (
     <>
-      <Head>
-        {/* <script src="sc.js"></script> */}
-      </Head>
       <div className="containerr">
         <div className={styles.marginTop}>
           <div className="row justify-content-between">
@@ -37,7 +34,6 @@ function PortFolio1() {
                 <div>
                 <h4 className={styles.portFolio1Link}><Link className={styles.portFolio1Link} href="https://mudirr.com">Visit Website</Link></h4>
                 </div>
-                
               </div>
             </div>
             <div className="col-lg-5 col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-0 mt-sm-3 mt-4">
