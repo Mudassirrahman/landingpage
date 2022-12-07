@@ -1,7 +1,7 @@
 import React from "react";
 import PortFolio1ImgsSlider from "../portFolio1/PortFolio1ImgsSlider";
 import styles from "../../styles/PortFolio3.module.css";
-import Link from "next/Link";
+import Link from "next/link";
 
 function PortFolio3() {
   return (

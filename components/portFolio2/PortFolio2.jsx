@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/Link";
+import Link from "next/link";
 import Deck from "./Deck"
 import PortFolio1ImgsSlider from "../portFolio1/PortFolio1ImgsSlider"
 import styles from "../../styles/PortFolio2.module.css"
