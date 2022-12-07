@@ -1,7 +1,6 @@
 import React from "react";
 import { animated, interpolate } from "react-spring";
 import Carousel from "nuka-carousel";
-
 class Card extends React.Component {
 
   
