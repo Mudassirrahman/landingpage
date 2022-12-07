@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import styles from "../../styles/Footer1.module.css";
 
 function Footer1() {
@@ -19,8 +20,10 @@ function Footer1() {
             <a href="" class="text-decoration-none text-white" data-bs-toggle="modal" data-bs-target="#modalContactForm">
              Pitch your Idea </a>
             </button>
-            <button type="button" className={`${"btn btn-lg px-4"} ${styles.btnbg2}`}>
+            <button type="button" className={`${"btn btn-lg px-4"}`}>
+            <Link className={`${styles.btnbg2}`} href="https://calendly.com/mudirr"  target="_blank">
             Schedule a Meeting
+            </Link>
             </button>
           </div>
         </div>
