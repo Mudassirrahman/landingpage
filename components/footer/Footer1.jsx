@@ -20,7 +20,7 @@ function Footer1() {
             <a href="" class="text-decoration-none text-white" data-bs-toggle="modal" data-bs-target="#modalContactForm">
              Pitch your Idea </a>
             </button>
-            <Link  className={`${"btn btn-lg px-4"} ${styles.btnbg2}`} href="https://calendly.com/mudirr">
+            <Link  className={`${"btn btn-lg px-4"} ${styles.btnbg2}`} href="https://calendly.com/mudirr"  target="_blank">
             Schedule a Meeting
             </Link>
           </div>
