@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {AiOutlineTwitter} from "react-icons/ai"
 import {FaFacebookF , FaLinkedinIn} from "react-icons/fa"
 import {BsYoutube} from "react-icons/bs"
@@ -11,48 +12,56 @@ function Footer2() {
         <div className="d-flex justify-content-between">
           <ul className="d-flex gap-4 p-0">
             <li className="list-unstyled">
-              <a
+              <Link
                 className={`${"text-decoration-none pb-2  d-xl-flex d-lg-flex d-md-flex d-sm-flex d-none"} ${styles.linkTextColor} ${styles.linkTextColorLinkedin} ${styles.custmBorder1}`}
-                href=""
+                href="https://www.linkedin.com/in/asemnaveed/"  target="_blank"
               >
                 Linkedin
-              </a>
+              </Link>
+              <Link href="https://www.linkedin.com/in/asemnaveed/"  target="_blank">
               <FaLinkedinIn className={`${"d-xl-none d-lg-none d-md-none d-sm-none d-block"} ${styles.iconsSizeAndColor}`} />
+              </Link>
             </li>
             <li className="list-unstyled">
-              <a
+              <Link
                 className={`${"text-decoration-none pb-2  d-xl-flex d-lg-flex d-md-flex d-sm-flex d-none"}  ${styles.linkTextColor} ${styles.linkTextColorTwiter} ${styles.custmBorder2} `}
-                href=""
+                href="https://twitter.com/asemnaveed"  target="_blank"
               >
                 Twitter
-              </a>
+              </Link>
+              <Link href="https://twitter.com/asemnaveed"  target="_blank">
               <AiOutlineTwitter className={`${"d-xl-none d-lg-none d-md-none d-sm-none d-block"} ${styles.iconsSizeAndColor}`}/>
+              </Link>
             </li>
             <li className="list-unstyled">
-              <a
+              <Link
                 className={`${"text-decoration-none pb-2  d-xl-flex d-lg-flex d-md-flex d-sm-flex d-none"} ${styles.linkTextColor} ${styles.linkTextColorFacebook} ${styles.custmBorder3} `}
-                href=""
+                href="https://web.facebook.com/asemnaveed"  target="_blank"
               >
                 Facebook
-              </a>
+              </Link>
+              <Link href="https://web.facebook.com/asemnaveed"  target="_blank">
               <FaFacebookF className={`${"d-xl-none d-lg-none d-md-none d-sm-none d-block"} ${styles.iconsSizeAndColor}`}/>
+              </Link>
             </li>
             <li className="list-unstyled">
-              <a
+              <Link
                 className={`${"text-decoration-none pb-2 d-xl-flex d-lg-flex d-md-flex d-sm-flex d-none"} ${styles.linkTextColor} ${styles.linkTextColorYoutube} ${styles.custmBorder4} `}
-                href=""
+                href="https://www.youtube.com/@asemnaveed"  target="_blank"
               >
                 Youtube
-              </a>
+              </Link>
+              <Link href="https://www.youtube.com/@asemnaveed"  target="_blank">
               <BsYoutube className={`${"d-xl-none d-lg-none d-md-none d-sm-none d-block"} ${styles.iconsSizeAndColor}`}/>
+              </Link>
             </li>
           </ul>
           <div>
             <ul>
               <li className="list-unstyled">
-                <a className={` ${"text-decoration-none"} ${styles.linkTextColor}`} href="">
+                <Link className={` ${"text-decoration-none"} ${styles.linkTextColor}`} href="">
                   AsimNaveed.com{" "}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
