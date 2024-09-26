@@ -301,8 +301,8 @@ h5:last-of-type {
   .swiper{
     width: 18rem !important;
     height: 17.125rem !important;
-    margin-left:1.25rem !important;
-    margin-right: 1.25rem !important;
+   /* margin-left:1.25rem !important;
+    margin-right: 1.25rem !important; */
   }
 /*   .mySwiper{
     margin-left:auto !important;
@@ -313,8 +313,8 @@ h5:last-of-type {
   .swiper{
     width: 17rem !important;
     height: 15.125rem !important;
-    margin-left:1.25rem !important;
-    margin-right: 1.25rem !important;
+    /* margin-left:1.25rem !important;
+    margin-right: 1.25rem !important; */
   }
 /*   .mySwiper{
     margin-left:auto !important;
@@ -326,8 +326,8 @@ h5:last-of-type {
   .swiper{
     width: 15rem !important;
     height: 15.125rem !important;
-    margin-left:1.25rem !important;
-    margin-right: 1.25rem !important;
+  /*  margin-left:1.25rem !important;
+    margin-right: 1.25rem !important; */
   }
 /*   .mySwiper{
     margin-left:auto !important;
